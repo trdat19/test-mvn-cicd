@@ -21,4 +21,9 @@ public class AppTest {
     public void testDup() {
         assertEquals(20, App.dup(5, 4));
     }
+
+    @Test
+    public void testPlus5() {
+        assertEquals(10, App.plus5(5));
+    }
 }

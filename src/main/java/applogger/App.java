@@ -19,5 +19,9 @@ public class App {
     public static int dup(int x, int y) {
         return x * y;
     }
+
+    public static int plus5(int x) {
+        return x + 5;
+    }
 }
 
